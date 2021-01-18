@@ -1,0 +1,24 @@
+.Die-icon {
+  color: purple;
+  font-size: 10rem;
+  margin: 15px;
+}
+
+.Die-icon-rolling {
+  animation: shake 0.9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(4px, 4px) rotate(2deg); }
+  10% { transform: translate(-4px, -8px) rotate(-20deg); }
+  20% { transform: translate(-14px, 0px) rotate(20deg); }
+  30% { transform: translate(14px, 8px) rotate(2deg); }
+  40% { transform: translate(4px, -4px) rotate(20deg); }
+  50% { transform: translate(-4px, 8px) rotate(-20deg); }
+  60% { transform: translate(-14px, 4px) rotate(2deg); }
+  70% { transform: translate(14px, 4px) rotate(-20deg); }
+  80% { transform: translate(-4px, -4px) rotate(20deg); }
+  90% { transform: translate(4px, 8px) rotate(2deg); }
+  100% { transform: translate(4px, -8px) rotate(-20deg); }
+}
